@@ -73,6 +73,6 @@ def solve(search_type, provided_initial_board):
     return func(generate_state_map(provided_initial_board))
 
 requested_search_type = 'bfs' #sys.argv[0]
-provided_initial_board = [1,2,5,3,4,0,6,7,8] #sys.argv[1]
+provided_initial_board = [1, 2, 5, 3, 4, 0, 6, 7, 8] #sys.argv[1]
 
 solve(requested_search_type, provided_initial_board)
